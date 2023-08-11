@@ -1,0 +1,11 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $message = $_POST["message"];
+
+    // You can process the form data here (e.g., save to a database, send an email)
+
+    echo "Thank you for your submission, $name!";
+}
+?>
